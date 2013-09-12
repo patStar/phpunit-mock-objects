@@ -74,7 +74,7 @@ class PHPUnit_Framework_MockObject_Matcher_AnyParameters extends PHPUnit_Framewo
      */
     public function matches(PHPUnit_Framework_MockObject_Invocation $invocation)
     {
-        $this->invocation = $invocation
+        $this->invocation = $invocation;
         return TRUE;
     }
     
